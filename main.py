@@ -29,4 +29,6 @@ if query and youtube_url:
     st.subheader("Answer:")
     st.text(textwrap.fill(response, width=80))
 
+    print("completed")
+
 
